@@ -7,7 +7,9 @@
     <title>YXGN Creative</title>
     <link rel="shortcut icon" href="Assets\LOGO_ligthborder.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -27,7 +29,7 @@
           </div>
       </header>
       <!-- navbar -->
-      <section class="home">
+      <section class="home" id="home">
         <div class="media-icons">
           <a href="#"><i class="uil uil-facebook-f"></i></a>
           <a href="#"><i class="uil uil-instagram"></i></a>
@@ -99,7 +101,7 @@
         </div>
       </section>
     <!-- home -->
-    <div class="service">
+    <div class="service" id="service">
       <div class="title1">What We do</div>
       <div class="image-bg" style="
       background-image: url(Assets\1.jpg);"></div>
@@ -148,6 +150,8 @@
       <script>
         AOS.init();
       </script>
+      <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
     <!-- js -->
   </body>
   <footer>
@@ -157,10 +161,10 @@
     </div>
     <div class="mid">
       <ul class="nav-foot">
-        <li><a href="#">HOME</a></li>
+        <li><a href="#home">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SEVICES</a></li>
-        <li><a href="#">WORKS</a></li>
+        <li><a href="#service">SEVICES</a></li>
+        <li><a href="#works">WORKS</a></li>
       </ul>
       <ul class="police">
         <li><a href="#">Privacy Policy</a></li>
