@@ -4,14 +4,15 @@ body {
   padding: 0;
   margin: 0;
   background-color: white;
+  transition: 0.5s;
 }
 header {
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow-x: hidden;
-  padding: 10px;
+  overflow: hidden;
+  padding: 10px 0px;
   width: 100%;
   height: 50px;
   z-index: 2;
@@ -19,11 +20,13 @@ header {
 }
 header img {
   width: 120px;
+  padding-left: 12px;
 }
 header a {
   text-decoration: none;
   color: #212121;
   padding-left: 15px;
+  padding-right: 12px;
   letter-spacing: 2px;
   transition: 0.6s;
 }
@@ -77,12 +80,39 @@ header ul {
   color: #ffcf27;
   font-size: 10px;
 }
-.banner img {
-  width: 100%;
-}
+/* banner */
+
 /* darkmode */
 body.dark {
   background-color: #212121;
+  transition: 0.5s;
+}
+/* dark footer */
+body.dark footer {
+  color: #fff;
+  background-color: #212121;
+  transition: 0.5s;
+}
+body.dark footer a {
+  color: #fff;
+  transition: 0.5s;
+}
+/* dark works, service */
+body.dark .works-detail,
+body.dark .works-detail p,
+body.dark .nav-works ul li a,
+body.dark .detail,
+body.dark .detail h1 {
+  color: #fff;
+  transition: 0.5s;
+}
+body.dark .logo-foot img {
+  filter: invert(100%);
+  transition: 0.5s;
+}
+body.dark .detail a,
+body.dark .detail-works a {
+  background-color: #54edc1;
 }
 /* sticky */
 .sticky {
@@ -100,12 +130,6 @@ header.sticky .logo {
 header .logo {
   transition: 0.5s;
 }
-.container {
-  background-color: #212121;
-  width: 100%;
-  height: 500px;
-  background-image: url(Assets\1.jpg);
-}
 /* footer */
 footer {
   background-color: whitesmoke;
@@ -113,6 +137,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 20px 0;
+  transition: 0.5s;
 }
 .logo-foot {
   text-align: center;
@@ -171,7 +196,8 @@ footer {
   margin-left: 5%;
 }
 .nav-service {
-  background-color: #212121;
+  background-color: rgba(21, 21, 21, 0.5);
+  backdrop-filter: blur(20px);
   margin: 5px 15px;
   padding: 10px 0;
   border-radius: 5px;
@@ -195,10 +221,10 @@ footer {
   flex-direction: column;
 }
 .image-bg {
-  background-image: url(Assets\1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: aliceblue;
+  background-position: center;
 }
 /* video */
 .video {
@@ -210,9 +236,10 @@ footer {
   width: 30%;
   height: auto;
   margin: 35px 0;
+  transition: 0.5s;
 }
 .detail a {
-  background-color: #54edc1;
+  background-color: #ffcf27;
   text-decoration: none;
   text-align: center;
   padding: 10px 15px;
@@ -225,6 +252,7 @@ footer {
 .detail h1 {
   font-size: 42px;
   color: #212121;
+  transition: 0.5s;
 }
 /* works */
 .works {
@@ -241,27 +269,32 @@ footer {
   list-style: none;
   display: flex;
   justify-content: flex-start;
+  color: #212121;
 }
 .nav-works a {
   text-decoration: none;
   color: #212121;
   font-weight: 800;
   padding: 0 15px;
+  transition: 0.5s;
 }
 .nav-works .detail-works {
   color: #212121;
 }
 .works-detail {
   padding: 5%;
+  transition: 0.5s;
+  color: #212121;
 }
 .works-detail p {
   font-size: small;
   padding-bottom: 5%;
+  color: #212121;
 }
 .detail-works a {
   text-decoration: none;
   color: #212121;
-  background-color: #54edc1;
+  background-color: #ffcf27;
   padding: 10px 15px;
   border-radius: 25px;
   font-size: small;
@@ -271,12 +304,12 @@ footer {
   .works {
     flex-direction: column;
   }
-  .foot-up {
-    flex-direction: column;
-  }
-  .foot-down {
+  footer {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+  }
+  .detail {
+    width: 40%;
   }
 }
