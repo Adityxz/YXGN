@@ -252,7 +252,7 @@ section {
   transform: translateX(-50%);
   transition: 0.3s ease;
 }
-
+/* thumb scrollspy */
 .thumbs-container {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -274,7 +274,7 @@ section {
 .swiper-slide-thumb-active {
   border: 1px solid var(--white-color);
 }
-
+/* thumb scrollspy */
 /*======= Media icons =======*/
 .media-icons {
   z-index: 999;
@@ -597,6 +597,9 @@ footer {
   background-color: aliceblue;
   background-position: center;
 }
+.title1 {
+  text-align: center;
+}
 /* video */
 .video {
   margin: 0 3%;
@@ -681,6 +684,9 @@ footer {
     text-align: center;
   }
   .detail {
-    width: 40%;
+    width: 60%;
+  }
+  footer {
+    max-width: 100%;
   }
 }
