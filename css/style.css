@@ -611,6 +611,8 @@ footer {
   height: auto;
   margin: 35px 0;
   transition: 0.5s;
+  color: #fff;
+  background-image: url("1.jpg");
 }
 .detail a {
   background-color: #ffcf27;
@@ -622,11 +624,6 @@ footer {
 }
 .bef-tit {
   font-size: small;
-}
-.detail h1 {
-  font-size: 42px;
-  color: #212121;
-  transition: 0.5s;
 }
 /* works */
 .works {
