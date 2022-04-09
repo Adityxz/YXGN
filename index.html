@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -29,36 +28,71 @@
           </div>
       </header>
     <!-- navbar -->
-    
+    <div id="home">
+      <div class="bg-home">
+        <img src="Assets\2.jpg" alt="">
+      </div>
+      <div class="content-home">
+        <h1>YXGN<br>Creative</h1>
+        <span></span>
+        <p class="p-home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos a veniam quaerat blanditiis.</p>
+        <a href="#">Let's Collaborate</a>
+      </div>
+    </div>
     <!-- home -->
-    <div class="service" id="service">
-      <div class="title1">What We do?</div>
-        <div class="slider-navigation">
-          <div class="nav-btn active">Video</div>
-          <div class="nav-btn">Photo</div>
-          <div class="nav-btn">Web Developing</div>
+    <!-- how -->
+    <section id="about">
+      <h1>How We Work?</h1>
+      <div class="card">
+        
+      </div>
+    </section>
+    <!-- how -->
+    <div class="wrapper">    
+      <input type="radio" name="slider" checked id="video">
+      <input type="radio" name="slider" id="photo">
+      <input type="radio" name="slider" id="code">
+      <div class="slider"></div>
+      <nav>
+        <label for="video" class="video"><i class="fas fa-home"></i>video</label>
+        <label for="photo" class="photo"><i class="fas fa-photo"></i>photo</label>
+        <label for="code" class="code"><i class="fas fa-code"></i>Code</label>        
+      </nav>
+      <section>
+        <div class="content content-1"> 
+          <div class="detail-video">
+            <p>Full Service of</p>
+            <div class="title">VIDEO <BR>PRODUCTION</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur iste fugiat.</p>
+            <a href="#">Let's Collaborate</a>
+          </div>
+          <div class="imageu">
+            <img src="Assets\1.jpg" alt="">
+          </div>
         </div>
-        <img src="assets\1.jpg" class="image-slide active" alt="" />
-        <img src="assets\2.jpg" class="image-slide" alt="" />
-        <img src="assets\3.jpg" class="image-slide" alt="" />
-      <div class="content active">
-          <p class="bef-tit">Full service of</p>
-          <h1>Video <br> Production</h1>
-          <p class="af-tit">We provide full service video production from sratch idea to immersive video</p>
-          <a href="#">Let's Collaborate</a>
-      </div>
-      <div class="content">
-          <p class="bef-tit">Full service of</p>
-          <h1>Video <br> Production</h1>
-          <p class="af-tit">We provide full service video production from sratch idea to immersive video</p>
-          <a href="#">Let's Collaborate</a>
-      </div>
-      <div class="content">
-          <p class="bef-tit">Full service of</p>
-          <h1>Video <br> Production</h1>
-          <p class="af-tit">We provide full service video production from sratch idea to immersive video</p>
-          <a href="#">Let's Collaborate</a>
-      </div>
+        <div class="content content-2"> 
+          <div class="detail-video">
+            <p>Full Service of</p>
+            <div class="title">VIDEO <BR>PRODUCTION</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur iste fugiat.</p>
+            <a href="#">Let's Collaborate</a>
+          </div>
+          <div class="imageu">
+            <img src="Assets\2.jpg" alt="">
+          </div>
+        </div>
+        <div class="content content-3"> 
+          <div class="detail-video">
+            <p>Full Service of</p>
+            <div class="title">VIDEO <BR>PRODUCTION</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur iste fugiat.</p>
+            <a href="#">Let's Collaborate</a>
+          </div>
+          <div class="imageu">
+            <img src="Assets\3.jpg" alt="">
+          </div>
+        </div>
+      </section>
     </div>
     <!-- services -->
     <div class="works" id="works">
@@ -83,14 +117,13 @@
       </div>
     </div>
       <!-- js -->
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <script type="text/javascript" src="js/script.js"></script>
       <script type="text/javascript" src="js/darkmode.js"></script>
       <script type="text/javascript" src="js/stickynav.js"></script>
       <script>
         AOS.init();
       </script>
-      <script src="js/swiper-bundle.min.js"></script>
-      <script src="js/main.js"></script>
     <!-- js -->
   </body>
   <footer>
