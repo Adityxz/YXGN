@@ -158,6 +158,9 @@ body.dark .darkah {
   color: #fff;
   transition: 0.5s;
 }
+body.dark .typing {
+  color: #54edc1;
+}
 /* home */
 #home {
   margin: 0px;
@@ -179,7 +182,7 @@ body.dark .darkah {
   z-index: 1;
   top: 25%;
   left: 10%;
-  width: 50%;
+  width: 85%;
 }
 .home_content h1 {
   font-size: 52px;
@@ -187,6 +190,19 @@ body.dark .darkah {
   margin-bottom: -15px;
   padding-bottom: 0;
 }
+.text-3 {
+  font-size: 24px;
+  margin: 15px 0px;
+}
+.typing {
+  color: #ffcf27;
+}
+.home_content .text3 span {
+  color: #ffcf27;
+}
+/* works */
+
+/* footer */
 footer {
   background-color: whitesmoke;
   display: flex;
@@ -265,6 +281,9 @@ footer {
   }
   footer {
     max-width: 100%;
+  }
+  .icon-foot ul {
+    margin-right: 25px;
   }
 }
 /* responsive point */

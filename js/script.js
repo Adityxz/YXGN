@@ -23,3 +23,9 @@ btns.forEach((btn, i) => {
     sliderNav(i);
   });
 });
+var typed = new Typed(".typing", {
+  strings: ["Ads Video?", "Product Photo?", "Logo?", "Campaign?"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true,
+});
