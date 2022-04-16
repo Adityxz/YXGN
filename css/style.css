@@ -267,6 +267,9 @@ footer {
 }
 /* responsive point */
 @media only screen and (max-width: 600px) {
+  .sticky {
+    height: 35px;
+  }
   header img {
     padding-left: 12px;
   }
