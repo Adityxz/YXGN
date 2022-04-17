@@ -161,6 +161,10 @@ body.dark .darkah {
 body.dark .typing {
   color: #54edc1;
 }
+body.dark .tabs {
+  color: #fff;
+  transition: 0.5s;
+}
 /* home */
 #home {
   margin: 0px;
@@ -281,6 +285,7 @@ footer {
   list-style: none;
   margin: 0px 10px;
   padding-inline-start: 0px !important;
+  transition: 0.5s;
 }
 .bgslider {
   z-index: 1;
@@ -339,6 +344,10 @@ footer {
 }
 #video.active + .slider {
   height: 100px;
+}
+.offer {
+  margin-left: 5%;
+  font-size: 32px;
 }
 /* contact */
 #contact {
