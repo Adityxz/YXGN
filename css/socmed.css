@@ -110,6 +110,16 @@ body.dark {
   background-color: #212121;
   transition: 0.5s;
 }
+body.dark .logo img {
+  filter: invert(100%);
+  transition: 0.5s;
+}
+body.dark .main h1 {
+  color: #ffffff;
+}
+body.dark .kanan a {
+  color: #fff;
+}
 /* main */
 .main {
   display: flex;
