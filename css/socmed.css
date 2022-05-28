@@ -3,7 +3,8 @@
 body {
   font-family: "poppins", sans-serif;
   padding: 0;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   transition: 0.5s;
   scroll-behavior: smooth;
@@ -19,6 +20,8 @@ header {
   overflow: hidden;
   padding: 10px 0px;
   width: 100%;
+  max-width: 600px;
+  margin-top: 0px;
   height: 50px;
   z-index: 1000;
   transition: 0.5s;
@@ -115,10 +118,12 @@ body.dark {
 .main h1 {
   margin-left: 20px;
   margin-top: 100px;
+  color: #212121;
 }
 .box {
+  display: block;
   width: 80%;
-  height: 50px;
+  height: 40px;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -126,7 +131,7 @@ body.dark {
   text-align: center;
   text-decoration: none;
   color: #212121;
-  padding-top: 25px;
+  padding-top: 15px;
   margin-top: 25px;
 }
 .box i {
@@ -159,6 +164,8 @@ body.dark {
   text-align: center;
   padding-top: 20px;
   margin-bottom: 35px;
+  font-size: 32px;
+  color: #212121;
 }
 .project a {
   background-color: #212121;
