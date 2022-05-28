@@ -8,6 +8,7 @@ body {
   transition: 0.5s;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  max-width: 600px;
 }
 /* header */
 header {
@@ -116,7 +117,7 @@ body.dark {
   margin-top: 100px;
 }
 .box {
-  width: 430px;
+  width: 80%;
   height: 50px;
   border-radius: 10px;
   margin-left: auto;
@@ -156,8 +157,8 @@ body.dark {
 }
 .project h1 {
   text-align: center;
-  padding-top: 30px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 35px;
 }
 .project a {
   background-color: #212121;
