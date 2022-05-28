@@ -8,27 +8,32 @@
     <title>Let's Create!</title>
   </head>
   <body>
-    <nav class="navbar">
-      <a href="index.html"><img src="images/LOGO_textdark.png" alt="" /></a>
-    </nav>
-    <section class="main">
+    <header>
+        <div class="logo">
+            <a href="#"><img src="images\LOGO_textdark.png" alt=""></a>
+        </div>
+        <div class="kanan">
+          <ul>
+              <input type="checkbox" class="checkbox" id="chk" />
+              <label class="label" for="chk">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
+                <div class="ball"></div>
+              </label>
+              <li><a href="#" class="bi bi-translate"></a></li>
+        </div>
+    </header>
+    <!-- navbar - main -->
+    <section id="links">
+    <div class="main">
       <h1>Fell free to Check out our other platforms!</h1>
-      <ul class="socmed">
-        <li>
-          <a href="#"><i class="bi bi-whatsapp"></i>Whatsapp</a>
-        </li>
-        <li>
-          <a href="#"><i class="bi bi-instagram"></i>Instagram</a>
-        </li>
-        <li>
-          <a href="#"><i class="bi bi-youtube"></i>YouTube</a>
-        </li>
-        <li>
-          <a href="#"><i class="bi bi-tiktok"></i>TikTok</a>
-        </li>
-      </ul>
+          <a class="box" href="https://wa.me/+6285819573758"><i class="bi bi-whatsapp"></i>WhatsApp</a>
+          <a class="box" href="https://instagram.com/yxgn.team"><i class="bi bi-instagram"></i>Instagram</a>
+          <a class="box" href="https://www.youtube.com/channel/UC1Y0gIjRaLmDahLbOqUdk3w"><i class="bi bi-youtube"></i>YouTube</a>
+          <a class="box" href="https://www.tiktok.com/@yxgn.team"><i class="bi bi-tiktok"></i>TikTok</a>
+    </div>
     </section>
-    <section class="gallery">
+    <!-- <section class="gallery">
       <h1>Our Short Movie</h1>
       <div class="slider">
         <div class="wraper">
@@ -40,10 +45,13 @@
           <h1>Reminisensi</h1>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="project">
       <h1>Got a Project?</h1>
       <a href="#">Let's Talk!</a>
     </section>
+<!-- js -->
+<script src="js/darkmode.js"></script>
+  <script src="js/stickynav.js"></script>
   </body>
 </html>
