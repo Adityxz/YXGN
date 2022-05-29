@@ -117,9 +117,23 @@ body.dark .logo img {
 }
 body.dark .main h1 {
   color: #ffffff;
+  transition: 0.5s;
+}
+body.dark .gallery {
+  color: #ffffff;
+  transition: 0.5s;
 }
 body.dark .kanan a {
   color: #fff;
+  transition: 0.5s;
+}
+body.dark footer {
+  color: #ffffff;
+  transition: 0.5s;
+}
+body.dark footer a {
+  color: #ffffff;
+  transition: 0.5s;
 }
 /* main */
 .main {
@@ -130,7 +144,8 @@ body.dark .kanan a {
   margin-left: 20px;
   margin-top: 100px;
   color: #212121;
-  font-size: 32px;
+  font-size: 24px;
+  transition: 0.5s;
 }
 .box {
   display: block;
@@ -148,19 +163,29 @@ body.dark .kanan a {
 }
 .box i {
   padding: 0px 5px;
+  color: #212121;
 }
 
 /* gallery */
 .gallery {
   margin-top: 70px;
+  color: #212121;
+  transition: 0.5s;
+  margin-bottom: 80px;
 }
 .wraper {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
+.wraper p {
+  text-align: justify;
+  font-size: small;
+}
 .wraper h1 {
   font-size: 32px;
+  margin-bottom: -10px;
+  margin-top: -3px;
 }
 /* .reminisensi {
   margin-left: 4%;
@@ -199,4 +224,10 @@ footer {
   text-align: center;
   font-size: small;
   opacity: 50%;
+  color: #212121;
+  transition: 0.5s;
+}
+footer a {
+  color: #212121;
+  transition: 0.5s;
 }
